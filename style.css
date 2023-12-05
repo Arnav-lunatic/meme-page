@@ -13,6 +13,10 @@ h1 {
     color: #ff4c6a;
 }
 
+img {
+    width: 100%;
+}
+
 button {
     background-color: #fc565bc9;
     border: 2px solid #a71a1e;
@@ -22,15 +26,16 @@ button {
     border-radius: 10px;
     position: absolute;
     white-space: nowrap;
+    width: 100px;
 }
 
 .yes {
     bottom: 5vh;
-    left: 30vw;
+    left: 20vw;
 }
 
 .no {
     background-color: #FCFEFC;
     bottom: 5vh;
-    right: 30vw;
+    right: 20vw;
 }
