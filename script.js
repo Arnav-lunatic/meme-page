@@ -1,6 +1,7 @@
 document.querySelector('.yes').addEventListener('click', () => {
     document.querySelector('img').src = 'assests/taunt.gif'
     document.querySelector('h1').innerHTML = 'Get lost, jerk!'
+    document.querySelector('h1').style.color = '#000'
 })
 
 
