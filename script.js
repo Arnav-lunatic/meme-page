@@ -12,3 +12,10 @@ noButton.addEventListener('click', () => {
     noButton.style.bottom = `${randomY}vh`
     noButton.style.left = `${randomX}vw`
 })
+
+function preload_image(im_url) {
+    let img = new Image();
+    img.src = im_url;
+}
+
+preload_image('assests/taunt.gif')
