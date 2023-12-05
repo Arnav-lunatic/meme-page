@@ -8,10 +8,10 @@ document.querySelector('.yes').addEventListener('click', () => {
 
 const noButton = document.querySelector('.no')
 noButton.addEventListener('click', () => {
-    let randomX = Math.floor(Math.random() * 50) + 30;
-    let randomY = Math.floor(Math.random() * 25);
-    noButton.style.bottom = `${randomY}vh`
-    noButton.style.left = `${randomX}vw`
+    let randomX = Math.floor(Math.random() * 70);
+    let randomY = Math.floor(Math.random() * 100);
+    noButton.style.bottom = `${randomY}%`
+    noButton.style.left = `${randomX}%`
 })
 
 function preload_image(im_url) {

@@ -2,6 +2,7 @@
 body {
     display: grid;
     justify-items: center;
+    height: 100dvh;
     height: 100vh;
     background-color: #FCFEFC;
     font-family: 'Cute Font', sans-serif;
@@ -15,6 +16,7 @@ h1 {
 
 img {
     width: 100%;
+    max-width: 500px;
 }
 
 button {
@@ -32,6 +34,14 @@ button {
 .yes {
     bottom: 5vh;
     left: 20vw;
+}
+
+.noWrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40vw;
+    height: 50vh;
 }
 
 .no {
