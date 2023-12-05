@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+body {
+    display: grid;
+    justify-items: center;
+    height: 100vh;
+    background-color: #FCFEFC;
+    font-family: 'Cute Font', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+button {
+    background-color: #fc565bc9;
+    border: 2px solid #a71a1e;
+    padding: 3px 15px;
+    font-family: 'Cute Font', sans-serif;
+    font-size: 2em;
+    border-radius: 10px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.yes {
+    bottom: 5vh;
+    left: 30vw;
+}
+
+.no {
+    background-color: #FCFEFC;
+    bottom: 5vh;
+    right: 30vw;
+}
