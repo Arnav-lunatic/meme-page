@@ -48,4 +48,5 @@ button {
     background-color: #FCFEFC;
     bottom: 5vh;
     right: 20vw;
+    transition: .3s;
 }
